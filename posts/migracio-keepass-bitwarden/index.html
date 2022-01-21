@@ -1,0 +1,326 @@
+
+  
+<!doctype html>
+<html class="no-js" lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://s3rgi.github.io/">
+    <meta name="author" content="s3rgi">
+    <meta name="description" content="el blog de s3rgi.">
+    <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,shortcuts">
+    <meta name="generator" content="Hugo 0.92.0" />
+    <title>
+        
+           
+               Migracio Keepass Bitwarden &vert; Blog de s3rgi
+           
+        
+    </title>
+    <meta name="description" content="Migracio Keepass Bitwarden - el blog de s3rgi.">
+    <meta itemprop="name" content="Migracio Keepass Bitwarden">
+    <meta itemprop="description" content="Migracio Keepass Bitwarden - el blog de s3rgi.">
+    <meta property="og:title" content="Migracio Keepass Bitwarden">
+    <meta property="og:description" content="Migracio Keepass Bitwarden - el blog de s3rgi.">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?size=200">
+    <meta property="og:url" content="https://s3rgi.github.io/posts/migracio-keepass-bitwarden/">
+    <meta property="og:site_name" content="Blog de s3rgi">
+    <meta property="og:type" content="article">
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+    <link href="/posts/migracio-keepass-bitwarden/" rel="alternate" type="application/rss+xml" title="Blog de s3rgi" />
+    <link href="/posts/migracio-keepass-bitwarden/" rel="feed" type="application/rss+xml" title="Blog de s3rgi" />
+    
+
+    
+    <link rel="canonical" href="https://s3rgi.github.io/posts/migracio-keepass-bitwarden/">
+    
+
+    <link rel="stylesheet" href="https://s3rgi.github.io/theme.css">
+
+    
+
+    
+        
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+
+    
+    <nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+        </ul>
+
+        
+            <div id="search-box" class="search">
+                <i class="fas fa-search"></i>
+                <input id="search" type="text" placeholder="">
+            </div>
+        
+    </div>
+</nav>
+
+
+    
+    <header>
+
+    <div class="container">
+        <div class="logo">
+            <a href="/" class="logo">
+                
+                    
+                    
+                        
+                    
+                    <img src="https://seccdn.libravatar.org/avatar/74807f3c7040b1f5e555902d0125bb5a?d=mm&size=200" alt="">
+                
+
+                <span class="overlay"><i class="fa fa-home"></i></span>
+            </a>
+        </div>
+        <div class="titles">
+            <h3 class="title">
+                <a href="/">
+                    Blog de s3rgi
+                </a>
+            </h3>
+
+            
+                <span class="subtitle">Hola món ! Ja som aquí !.</span>
+            
+        </div>
+
+        <div class="languages">
+            
+                
+                    <a href="https://s3rgi.github.io/" class="active">ca</a>
+                
+            
+                
+                    <a href="https://s3rgi.github.io/es/">es</a>
+                
+            
+            </div>
+        
+
+        
+            <div class="toggler">
+        
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://s3rgi.github.io/posts/migracio-keepass-bitwarden/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://s3rgi.github.io/posts/migracio-keepass-bitwarden/">
+            Migracio Keepass Bitwarden
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2022-01-20</span>
+            
+        
+
+        
+
+        
+
+        
+    </div>
+
+    
+        
+
+        <h1 id="migrant-de-keepass-a-bitwarden">Migrant de keepass a bitwarden</h1>
+<p>Fa un temps que me duia &ldquo;rondant&rdquo; el cap fer un canvi al meu sistema de contrasenyes, amb el qual he estat &ldquo;fidel&rdquo; a keepass des de fa més de 15 anys, les primers entrades que he trobat al meu fitxer keepass són del 26/06/2006.</p>
+<p>El decidirme a fer la migració ha vengut un poc provocat perquè he llegit una entrada del blog d&rsquo;aquest tipo ( <a href="https://trycatch.dev/blog/switching-from-keepass-to-bitwarden-after-14-years/">https://trycatch.dev/blog/switching-from-keepass-to-bitwarden-after-14-years/</a> ), que vaig trobar a través del canal de telegram de ugeek, on explica la seva transició a bitwarden després de 14 anys.</p>
+<p>Resulta curiós que jo ja feia uns dies (setmanes pot-ser) que ja estava provant tímidament (amb poques entrades) el servei en el cloud de bitwarden (<a href="https://www.bitwarden.com">https://www.bitwarden.com</a>) i la veritat és que m&rsquo;estava agradant molt, ja que té varies &ldquo;cosetes&rdquo; que trobo a faltar al keepass:</p>
+<ol>
+<li>És un gestor centralitzat a un servidor, cosa que té els seus avantatges i inconvenients com tots els serveis centralitzats.</li>
+<li>Té client oficial per linux, windows, android, ios&hellip; multiplataforma !!</li>
+<li>Pots instal·lar-te una instància en local perquè és opensource que funciona amb el mateix client oficial.</li>
+</ol>
+<p>El plantejament de keepass és molt bó perquè tens el fitxer en local i no està a cap servei cloud, però realment si necessites dur els passwords al mòbil es necessari tenir aquest fitxer sincronitzat, i al final acabes emprant dropbox, owncloud, etc &hellip; per a tenir-lo sincronitzat. Al llarg dels anys he anat sincronitzant-lo a varis serveis i últimament estava emprant el nigul de la feina (un owncloud) però així i tot no el tenia &ldquo;a casa meva&rdquo;.</p>
+<h2 id="vaultwarden-al-rescat">Vaultwarden al rescat</h2>
+<p>Després de llegir l&rsquo;entrada del blog de <em>trycatch</em>  i veient lo bé que van que els altres serveis que tenc allotjats al meu docker (freshrss, shaarli, joplin) m&rsquo;he decidit a provar amb bitwarden. A més, he trobat una configuració de contenidor molt més lleuger que el oficial ja que aquest necessita dos contenidors, app i db amb portgres, que a més són molt pesats). Aquest contenidor lleuger és una implementació de la API de bitwarden fet amb RUST, a més d&rsquo;un fork de la interfície web. També és molt més lleuger que el projecte oficial entre d&rsquo;altres coses perquè empra <em>sqlite</em> de base de dades.</p>
+<p>El projecte que he emprat per fer el meu contenidor privat es diu &ldquo;vaultwarden&rdquo;, i està disponible a <a href="https://github.com/dani-garcia/vaultwarden/wiki">https://github.com/dani-garcia/vaultwarden/wiki</a></p>
+<p>Notes del seu creador:</p>
+<blockquote>
+<p>Vaultwarden is an unofficial Bitwarden server implementation written in Rust. It is compatible with the official Bitwarden clients, and is ideal for self-hosted deployments where running the official resource-heavy service is undesirable.
+Vaultwarden is targeted towards individuals, families, and smaller organizations. Development of features that are mainly useful to larger organizations (e.g., single sign-on, directory syncing, etc.) is not a priority, though high-quality PRs that implement such features would be welcome.</p>
+</blockquote>
+<p>Per a desplegar-ho al meu docker he fet això:</p>
+<p>Crear un directori on s&rsquo;allotjarà la base de dades del sistema:
+<code>mkdir /opt/docker/vaultwarden/data</code></p>
+<p>Descarregar la darrera versió:
+<code>docker pull vaultwarden/server:latest</code></p>
+<p>Executar el contenidor:
+<code>docker run -d --name vaultwarden -v /opt/docker/vaultwarden/data/:/data/ -p 8086:80 vaultwarden/server:latest</code></p>
+<p>Amb això tendrem la interfície web de <em>bitwarden</em> al port 8086 (aquesta és la meva configuració, però es pot emprar qualsevol altre port)</p>
+
+    
+</div>
+
+    
+<div class="footer no-tags">
+
+
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+
+            
+
+            
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong></strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://s3rgi.github.io/posts/blog-a-github/">Posant el blog a Github Pages</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://s3rgi.github.io/posts/migracio-keepass-bitwarden/">Migracio Keepass Bitwarden</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://s3rgi.github.io/posts/hola-mon/">Hola Mon</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong></strong>
+
+                
+                <a href="https://twitter.com/s3rgi" target="_blank"><i class="fab fa-twitter"></i></a>
+                
+                <a href="https://github.com/s3rgi" target="_blank"><i class="fab fa-github"></i></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                <strong></strong>
+                
+                
+                <a href="https://s3rgi.github.io/" class="active">ca</a>
+                
+                
+                
+                <a href="https://s3rgi.github.io/es/">es</a>
+                
+                
+            </div>
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/s3rgi" target="_blank">
+                &copy;
+                
+                2022
+                
+                by s3rgi
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+
+    <script type="text/javascript" src="https://s3rgi.github.io/theme.js"></script>
+
+    
+    
+    
+
+    
+    <div id="activate-algolia-search" class="hidden">
+  <input type="hidden" id="algolia-search-appId" value="45CEN6X6AT">
+  <input type="hidden" id="algolia-search-apiKey" value="16030625f1a4d0dd3b8aefd794fd4cf1">
+  <input type="hidden" id="algolia-search-indexName" value="bilberry-hugo-theme">
+  <input type="hidden" id="algolia-search-noSearchResults" value="">
+
+  
+  <input type="hidden" id="algolia-search-currentLanguageOnly">
+  
+</div>
+
+    
+</body>
+
+</html>
