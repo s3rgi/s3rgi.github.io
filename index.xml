@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>s3rgi</title>
+    <title>El blog d&#39;en s3rgi</title>
     <link>https://s3rgi.github.io/</link>
-    <description>Recent content on s3rgi</description>
+    <description>Recent content on El blog d&#39;en s3rgi</description>
     <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021–2022, Sergi Navas and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Fri, 21 Jan 2022 21:31:23 +0100</lastBuildDate><atom:link href="https://s3rgi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posant el blog a Github Pages</title>
-      <link>https://s3rgi.github.io/posts/blog-a-github/</link>
+      <link>https://s3rgi.github.io/post/blog-a-github/</link>
       <pubDate>Fri, 21 Jan 2022 21:31:23 +0100</pubDate>
       
-      <guid>https://s3rgi.github.io/posts/blog-a-github/</guid>
+      <guid>https://s3rgi.github.io/post/blog-a-github/</guid>
       <description>
         
           
-            Una vegada decidit que vull fer un blog amb hugo, el seguent és cercar lloc on posar-lo i que sigui fàcil d&amp;rsquo;actualitzarr&amp;hellip;
+            Una vegada decidit que vull fer un blog amb hugo, el seguent és cercar lloc on posar-lo i que sigui fàcil d&#39;actualitzarr...
 Com hugo genera llocs webs estàtics, es poden posar a github pages sense complicacions, però has de saber com fer-ho.
-Googlejant una mica Per això, vaig estar &amp;ldquo;googlejant&amp;rdquo; una miqueta i he trobat aquest vídeo on un al·lot ho explica en 10 minuts, començant de 0 el blog. Molt interessant !
+Googlejant una mica Per això, vaig estar &amp;quot;googlejant&amp;quot; una miqueta i he trobat aquest vídeo on un al·lot ho explica en 10 minuts, començant de 0 el blog. Molt interessant !
           
           
         
@@ -26,15 +27,15 @@ Googlejant una mica Per això, vaig estar &amp;ldquo;googlejant&amp;rdquo; una m
     
     <item>
       <title>Migracio Keepass Bitwarden</title>
-      <link>https://s3rgi.github.io/posts/migracio-keepass-bitwarden/</link>
+      <link>https://s3rgi.github.io/post/migracio-keepass-bitwarden/</link>
       <pubDate>Thu, 20 Jan 2022 20:30:15 +0100</pubDate>
       
-      <guid>https://s3rgi.github.io/posts/migracio-keepass-bitwarden/</guid>
+      <guid>https://s3rgi.github.io/post/migracio-keepass-bitwarden/</guid>
       <description>
         
           
-            Migrant de keepass a bitwarden Fa un temps que me duia &amp;ldquo;rondant&amp;rdquo; el cap fer un canvi al meu sistema de contrasenyes, amb el qual he estat &amp;ldquo;fidel&amp;rdquo; a keepass des de fa més de 15 anys, les primers entrades que he trobat al meu fitxer keepass són del 26/06/2006.
-El decidirme a fer la migració ha vengut un poc provocat perquè he llegit una entrada del blog d&amp;rsquo;aquest tipo ( https://trycatch.
+            Migrant de keepass a bitwarden Fa un temps que me duia &amp;quot;rondant&amp;quot; el cap fer un canvi al meu sistema de contrasenyes, amb el qual he estat &amp;quot;fidel&amp;quot; a keepass des de fa més de 15 anys, les primers entrades que he trobat al meu fitxer keepass són del 26/06/2006.
+El decidirme a fer la migració ha vengut un poc provocat perquè he llegit una entrada del blog d&#39;aquest tipo ( https://trycatch.
           
           
         
@@ -43,10 +44,10 @@ El decidirme a fer la migració ha vengut un poc provocat perquè he llegit una 
     
     <item>
       <title>Hola Mon</title>
-      <link>https://s3rgi.github.io/posts/hola-mon/</link>
+      <link>https://s3rgi.github.io/post/hola-mon/</link>
       <pubDate>Thu, 20 Jan 2022 19:22:28 +0100</pubDate>
       
-      <guid>https://s3rgi.github.io/posts/hola-mon/</guid>
+      <guid>https://s3rgi.github.io/post/hola-mon/</guid>
       <description>
         
           

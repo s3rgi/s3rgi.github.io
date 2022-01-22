@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://s3rgi.github.io/es/autor/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://s3rgi.github.io/autor/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://s3rgi.github.io/es/autor/"
-                />
-  </url><url>
     <loc>https://s3rgi.github.io/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
